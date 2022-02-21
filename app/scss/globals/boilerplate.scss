@@ -1,0 +1,22 @@
+*,*::before,*::after {
+     box-sizing: inherit;
+}
+html {
+     font-size: 100%;
+     box-sizing: border-box;
+}
+body {
+     margin: 0rem;
+     padding: 0rem;
+     font-family: var(--font-inter);
+     background-color: var(--background);
+     color: var(--text-color);
+}
+.visually-hidden {
+     position: absolute;
+     top: auto;
+     left: -10000px;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+}
